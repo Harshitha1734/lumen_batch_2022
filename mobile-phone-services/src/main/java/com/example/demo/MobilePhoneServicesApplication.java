@@ -20,6 +20,7 @@ public class MobilePhoneServicesApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(MobilePhoneServicesApplication.class, args);
+		System.out.println("Changes are done");
 	}
 	@Bean
 	public CommandLineRunner runner() {
